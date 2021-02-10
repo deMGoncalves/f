@@ -1,6 +1,7 @@
 {
   "name": "@kuba/f",
   "description": "Uma biblioteca de funções auxiliares que oferece modularidade",
+  "private": false,
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
@@ -23,5 +24,8 @@
   },
   "dependencies": {
     "typescript": "^4.1.4"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/OWNER"
   }
 }
