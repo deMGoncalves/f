@@ -19,5 +19,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "husky": "^5.0.9",
     "pinst": "^2.1.4"
+  },
+  "dependencies": {
+    "typescript": "^4.1.4"
   }
 }
