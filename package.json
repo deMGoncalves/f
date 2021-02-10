@@ -1,5 +1,6 @@
 {
   "name": "@kuba/f",
+  "description": "Uma biblioteca de funções auxiliares que oferece modularidade",
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
