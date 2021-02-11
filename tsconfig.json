@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
-    "paths": {
-      "@add/*": ["src/add/*"]
-    },
     "skipLibCheck": true,
     "strict": true,
     "target": "es5"
