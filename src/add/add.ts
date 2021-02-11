@@ -7,7 +7,7 @@ function add (...args: Array<number|Add>): number {
 }
 
 function reducer (x: number, y: number | Add): number {
-  return x + (y as number)
+  return x + ((typeof y === 'number') ? y : y.__add__())
 }
 
 export default add
