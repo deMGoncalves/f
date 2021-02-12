@@ -18,9 +18,7 @@
   "main": "src/index.ts",
   "name": "@kuba/f",
   "scripts": {
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postinstall": "husky install"
   },
   "version": "1.0.0"
 }
