@@ -1343,6 +1343,10 @@ kind-of@^6.0.3:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+kuba-tsconfig@cleberengineer/kuba-tsconfig:
+  version "0.0.0"
+  resolved "https://codeload.github.com/cleberengineer/kuba-tsconfig/tar.gz/26c5ead66b6046ec699e0d1639f4bf80e32b8d0c"
+
 levn@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/levn/-/levn-0.4.1.tgz#ae4562c007473b932a6200d403268dd2fffc6ade"
