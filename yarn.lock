@@ -1367,6 +1367,10 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commitlintconfig@deMGoncalves/commitlintconfig:
+  version "0.0.0"
+  resolved "https://codeload.github.com/deMGoncalves/commitlintconfig/tar.gz/abd23f15d97cade3f134969b01ba85e214d37fbd"
+
 compare-func@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/compare-func/-/compare-func-2.0.0.tgz#fb65e75edbddfd2e568554e8b5b05fff7a51fcb3"
@@ -1872,6 +1876,10 @@ eslint@^7.19.0:
     table "^6.0.4"
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
+
+eslintrc@deMGoncalves/eslintrc:
+  version "0.0.0"
+  resolved "https://codeload.github.com/deMGoncalves/eslintrc/tar.gz/4cce19d43fdf710032cdbfc1cb78228757ecf5e0"
 
 espree@^7.3.0, espree@^7.3.1:
   version "7.3.1"
