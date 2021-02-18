@@ -87,7 +87,7 @@ describe('f.curry.threeParameters', function () {
     const x = (a, b, c) => a + b + c
     const y = threeParameters(x)
 
-    expect(y(__, '.'))
+    expect(y(__, '.')).toBeInstanceOf(Function)
 
     expect(isGap).toHaveBeenCalled()
     expect(isGap).toHaveBeenCalledTimes(2)
@@ -111,7 +111,7 @@ describe('f.curry.threeParameters', function () {
     const x = (a, b, c) => a + b + c
     const y = threeParameters(x)
 
-    expect(y('rex', __))
+    expect(y('rex', __)).toBeInstanceOf(Function)
 
     expect(isGap).toHaveBeenCalled()
     expect(isGap).toHaveBeenCalledTimes(3)
@@ -135,7 +135,7 @@ describe('f.curry.threeParameters', function () {
     const x = (a, b, c) => a + b + c
     const y = threeParameters(x)
 
-    expect(y('rex', '.'))
+    expect(y('rex', '.')).toBeInstanceOf(Function)
 
     expect(isGap).toHaveBeenCalled()
     expect(isGap).toHaveBeenCalledTimes(3)
