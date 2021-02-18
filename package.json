@@ -13,7 +13,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "husky": "^5.0.9",
-    "kuba-tsconfig": "cleberengineer/kuba-tsconfig",
+    "kuba-tsconfig": "deMGoncalves/tsconfig",
     "pinst": "^2.1.4"
   },
   "main": "src/index.ts",
