@@ -16,7 +16,7 @@
     "tsconfig": "deMGoncalves/tsconfig",
     "pinst": "^2.1.4"
   },
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "name": "f",
   "scripts": {
     "postinstall": "husky install"
