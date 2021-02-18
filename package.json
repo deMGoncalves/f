@@ -28,7 +28,8 @@
   "name": "f",
   "scripts": {
     "preinstall": "rm -rf dist",
-    "postinstall": "ttsc tsconfig.json && husky install",
+    "install": "./node_modules/.bin/ttsc tsconfig.json",
+    "postinstall": "husky install",
     "start": "jest --watchAll",
     "test": "jest --passWithNoTests"
   },
