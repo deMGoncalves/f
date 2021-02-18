@@ -20,11 +20,15 @@
     "jestconfig": "deMGoncalves/jestconfig",
     "pinst": "^2.1.4",
     "ts-jest": "^26.5.1",
-    "tsconfig": "deMGoncalves/tsconfig"
+    "tsconfig": "deMGoncalves/tsconfig",
+    "ttypescript": "^1.5.12",
+    "typescript-transform-paths": "^2.2.3"
   },
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "name": "f",
   "scripts": {
+    "preinstall": "rm -rf dist",
+    "install": "ttsc",
     "postinstall": "husky install",
     "start": "jest --watchAll",
     "test": "jest --passWithNoTests"
