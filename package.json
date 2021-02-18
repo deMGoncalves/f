@@ -27,9 +27,8 @@
   "main": "dist/index.js",
   "name": "f",
   "scripts": {
-    "preinstall": "rm -rf dist",
-    "install": "./node_modules/.bin/ttsc tsconfig.json",
     "postinstall": "husky install",
+    "prepublish": "ttsc tsconfig.json",
     "start": "jest --watchAll",
     "test": "jest --passWithNoTests"
   },
