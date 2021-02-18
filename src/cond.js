@@ -11,7 +11,7 @@ import T from './T'
  */
 export default (...pairs) =>
   (...args) => {
-    var result
+    let result
 
     pairs.some(([can, process]) =>
       can(...args) && T(result = process(...args)))
