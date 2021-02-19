@@ -3,9 +3,9 @@ import isEmpty from '@/isEmpty'
 import magic from '@/magic'
 import or from '@/or'
 
-const always = (x) =>
-  () => isEmpty(x)
-    ? x
-    : or(x[magic('f/always')], x)
+const always = (value) =>
+  () => isEmpty(value)
+    ? value
+    : or(value[magic('f/always')], value)
 
 export default curry(always)
