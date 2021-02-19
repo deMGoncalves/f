@@ -4772,7 +4772,7 @@ tsconfig-paths@^3.9.0:
 
 tsconfig@deMGoncalves/tsconfig:
   version "0.0.0"
-  resolved "https://codeload.github.com/deMGoncalves/tsconfig/tar.gz/e731701c662bec081a2604690faa003722d7c2d4"
+  resolved "https://codeload.github.com/deMGoncalves/tsconfig/tar.gz/86b561efb723b5cc2ecb87d40912103dc4fbb983"
 
 tslib@^1.8.1:
   version "1.14.1"
