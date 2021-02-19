@@ -40,5 +40,5 @@ jobs:
     - name: Run git commit
       run: |
         git add dist -f
-        git commit -m 'ci(dist): new publish'
+        git commit -m 'ci(dist): automatic new post'
         git push origin master
