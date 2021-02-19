@@ -35,7 +35,7 @@ jobs:
     - name: Run ttsc build
       run: |
         rm -rf dist
-        ttsc
+        yarn run ttsc
     
     - name: Run git commit
       run: |
